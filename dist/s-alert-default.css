@@ -2,6 +2,7 @@
 
 .s-alert-box,
 .s-alert-box * {
+    box-sizing: border-box;
 }
 
 .s-alert-box {
@@ -14,6 +15,7 @@
     color: rgba(250,251,255,0.95);
     font-size: 100%;
     font-family: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+    max-width: 300px;
     -webkit-transition: top .4s, bottom .4s;
     transition: top .4s, bottom .4s;
 }
